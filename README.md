@@ -1,9 +1,9 @@
-## 井字遊戲 alpha-beta剪枝法版本（TicTacToe alpha-beta algorithm version)
+# 井字遊戲 alpha-beta剪枝法版本（TicTacToe alpha-beta algorithm version)
 
-# 程式版本(requirement)
+## 程式版本(requirement)
   python 3.9.5
   
-# 遊玩方式（how to play)
+## 遊玩方式（how to play)
  棋盤：  
  1 ｜ 2 ｜ 3    
  4 ｜ 5 ｜ 6   
@@ -12,7 +12,7 @@
   先決定玩家為Ｏ或Ｘ
   玩家先手，跟電腦進行遊戲
   
-# 設計流程（program flow)
+## 設計流程（program flow)
   利用alpha-beta剪枝法判斷是否勝利
   ```
   def minimax(board, depth, ifmax):
